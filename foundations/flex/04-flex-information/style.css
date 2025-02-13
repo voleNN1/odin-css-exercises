@@ -10,6 +10,18 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.item {
+  max-width: 200px;
 }
 
 /* do not edit this footer */
@@ -24,3 +36,5 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solved on own again, solution is also different. Images seem slightly off, but I'm not sure why. It didn't happen until after doing the max-width of 200px */
