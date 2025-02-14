@@ -20,6 +20,23 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  font-size: large;
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+
+.header {
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.text {
+  margin-bottom: 16px;
 }
 
 .icon {
@@ -33,6 +50,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 15px;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -67,3 +86,5 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* Had to look at the solution a lot for this one. The answer was simple like it says, but dang it's hard to get my head around this Flexbox stuff. Gonna need lots of practice. */
