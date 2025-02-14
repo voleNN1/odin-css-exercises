@@ -5,10 +5,32 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer {
+  background: #eee;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
 }
 
 img {
   width: 600px;
+  margin: auto;
 }
 
 button {
@@ -16,6 +38,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -24,3 +47,18 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+/* Pretty much used the solution for this entire thing. Understanding which elements to use which properties on is what is getting me right now. */
